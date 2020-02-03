@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Inicio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <LINK rel=StyleSheet HREF="../assets/css/inicio.css" TYPE="text/css" MEDIA=screen>
+
+    <audio autoplay>
+            <source src="../assets/audio/hobbit.ogg" type="audio/ogg">
+            <source src="../assets/audio/hobbit.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+
+
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #00cc99;">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="../assets/img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./series.html">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./peliculas.html">Películas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./videos.html">Vídeos</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
+</head>
+
+<body>
+    <div class="header">
+        <img src="../assets/img/yoda.png" usemap="#mapaImagen" class="img-fluid img-thumbnail" alt="Responsive image">
+
+        <map name="mapaImagen">
+            <area shape="rect" alt="Series" coords="170,70,500,150" href="./series.html">
+            <area shape="circle" alt="Peliculas" coords="1050, 100, 150" href="./peliculas.html">
+            <area shape="poly" alt="Videos" coords="510,150, 900,200, 510,250, 550, 200" href="./videos.html">
+        </map>
+    </div>
+    <div class="wrapper">
+        <div class="left">
+            <h5>Más Populares</h5>
+            <hr>
+            <ul class="list-group">
+                <li class="list-group-item">Stranger Things</li>
+                <li class="list-group-item">Game Of Thrones</li>
+                <li class="list-group-item">El señor de los anillos</li>
+                <li class="list-group-item">Rick and Morty</li>
+                <li class="list-group-item">Mr. Robot</li>
+                <li class="list-group-item">Joker</li>
+            </ul>
+        </div>
+        <div class="right">
+            <h5>Actividad</h5>
+            <hr>
+            <div class="actividad">
+                <p class="textoActividad">
+                    Alberto <b>ha visto</b> <i>Stranger Things</i>.
+                    <br>
+                    <i>11/01/2019</i>
+                </p>
+
+                <p class="textoActividad">
+                    Alberto <b>ha comenzado a seguir</b> <i>Game Of Thrones</i>.
+                    <br>
+                    <i>29/03/2019</i>
+                </p>
+
+                <p class="textoActividad">
+                    Alberto <b>ha comenzado a seguir</b> <i>Mr. Robot</i>.
+                    <br>
+                    <i>15/07/2019</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook-square"></a>
+            <a href="https://twitter.com" target="_blank" class="fa fa-twitter-square"></a>
+            <a href="https://plus.google.com" target="_blank" class="fa fa-google-plus-square"></a>
+            <a href="https://ve.linkedin.com" target="_blank" class="fa fa-linkedin-square"></a>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

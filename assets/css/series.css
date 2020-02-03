@@ -1,0 +1,120 @@
+body {
+    background: url(https://thumbs.dreamstime.com/b/fondo-marino-verde-en-cerde%C3%B1a-59545922.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    margin: 0px auto;
+    margin-top: 5px;
+    width: 1469px;
+    height: 675px;
+    background-color: #cccccc
+}
+
+.header {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #00cc99
+}
+
+.content {
+    float: left;
+    width: 100%;
+    height: 580px;
+    background-color: #00cc99
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #00cc99
+}
+
+hr {
+    border-top: 3px double #0091b5;
+}
+
+.navbar {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.botones {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+/* Contenedor */
+
+.imagenSP {
+    width: 220px;
+    height: 220px;
+}
+
+.col-2 {
+    margin-left: 37px;
+    margin-top: 10px;
+}
+
+.row {
+    background-color: rgb(52, 226, 183);
+    width: 98%;
+    margin: 1%;
+}
+
+.nombreSP {
+    text-align: center;
+}
+
+
+/* Redes Sociales */
+
+.social {
+    margin-left: 640px;
+    margin-top: 10px;
+}
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+.fa-twitter-square:hover {
+    color: #55acee;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-linkedin-square:hover {
+    color: #0177B5;
+}
+
+.fa-facebook-square {
+    font-size: 52px;
+    color: gray;
+}
+
+.fa-twitter-square {
+    font-size: 52px;
+    color: gray;
+}
+
+.fa-google-plus-square {
+    font-size: 52px;
+    color: gray;
+}
+
+.fa-linkedin-square {
+    font-size: 52px;
+    color: gray;
+}
